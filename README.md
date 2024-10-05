@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [)
-- Live Site URL: [)
+- Live Site URL: [https://4rd2.github.io/Blog-Preview-Card/)
 
 ## My process
 
