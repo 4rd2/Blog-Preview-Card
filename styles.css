@@ -1,0 +1,73 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border: solid;
+    background-color: hsl(0, 0%, 100%);
+    width: 384px;
+    max-height: 522px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+}
+.image {
+    width: 100%;
+    height: 200px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 10px;
+
+}
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+
+.titleBox {
+    width:fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.presetOne {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.presetTwo {
+    font-size: 16px;
+    color: gray;
+}
+
+.presetThree {
+    font-weight: bold;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
