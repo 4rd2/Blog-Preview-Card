@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'figTree'; /* Name you will use in CSS */
+    src: url('assets\fonts\Figtree-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('assets\fonts\Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;  /* or specify weights */
+    font-style: normal;   /* or specify style (e.g., italic) */
+}
+
+/* Additional @font-face declarations for other weights or styles */
+
+
+
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -16,6 +30,8 @@ body {
 
 .container {
     border: solid;
+    border-radius: 20px;
+    box-shadow: 8px 8px;
     background-color: hsl(0, 0%, 100%);
     width: 384px;
     max-height: 522px;
@@ -38,6 +54,7 @@ body {
     line-height: 150%;
     letter-spacing: 0px;
     font-size: 14px;
+    font-family: 'figTree';
 }
 
 .titleBox {
